@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<logicalClassDesignerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" dslVersion="1.0.0.0" Id="cde97e7c-606e-4924-9c3c-a860a1e55e26" name="SpaceInvaders" linkedPackageId="23cb08e6-4871-485c-bbd5-8ac9034e20e3" xmlns="http://schemas.microsoft.com/dsltools/LogicalClassDesigner">
+  <appliedStereotypesInternal>
+    <stereotypeInstance Id="36ea37f0-0488-4e97-964f-969e87da91ca" name="namespace" profile="CSharpProfile">
+      <elementDefinition Id="a4aa0dfc-2e86-4482-abd4-b2d003168809" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="c592ede2-b355-451f-b9b2-b7a43460ac88">
+          <propertyInstance Id="a7cb564c-331a-41c4-9d75-f65be013d339" name="BaseName">
+            <elementDefinition Id="03f774a1-7130-4e41-b19c-9ac6a096fba6" />
+          </propertyInstance>
+          <elementDefinition Id="78e3613c-2d42-444f-a91c-324bc4539635" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="f1fd15a6-038b-4e17-9635-f285a013ac59">
+          <propertyInstance Id="655579d2-9eae-41c2-bb23-d43855ba480d" name="ClrAttributes">
+            <elementDefinition Id="f280b6f6-e519-49f0-835d-142982204362" />
+          </propertyInstance>
+          <elementDefinition Id="02b9a180-76b4-4e0e-8263-19415d899d68" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="51abc5ba-ca86-4314-a605-53ca00d428bb">
+          <propertyInstance Id="a1934ff5-9ebd-4eae-9a03-b38b76f3548b" name="Usings">
+            <elementDefinition Id="1cee5416-0b01-46e7-b0ac-a6068384e0e9" />
+          </propertyInstance>
+          <elementDefinition Id="6a55568e-eb30-4a98-afdf-b4da4002be22" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+    <stereotypeInstance Id="6686f329-bd10-4ef5-b1b6-ea2c8a17f87e" name="TextTemplateBindings" profile="TextTemplateBindings">
+      <elementDefinition Id="5bf4f880-a459-41ff-bcca-3de250c1f51e" />
+      <propertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="6c4551be-e0a2-4b67-ae60-4dd5d4e7f603">
+          <propertyInstance Id="f9291698-a849-47bd-be44-238678fd3c2c" name="Alias" value="ClassTemplate|EnumTemplate|InterfaceTemplate|StructTemplate">
+            <elementDefinition Id="a6526d9f-43da-407e-89f0-5d67bb1eded3" />
+          </propertyInstance>
+          <elementDefinition Id="5e3a6b2c-0740-4468-b79b-826476acfeb1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d440d4d3-0aa3-4fcd-99b6-0a7cb8924ec6">
+          <propertyInstance Id="ec9e860c-410e-4a66-bf92-a66f3be95fa6" name="TemplateFilePath" value="ClassTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\ClassTemplate.t4|EnumTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\EnumTemplate.t4|InterfaceTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\InterfaceTemplate.t4|StructTemplate=C:\PROGRAM FILES (X86)\MICROSOFT VISUAL STUDIO 14.0\COMMON7\IDE\EXTENSIONS\MICROSOFT\ARCHITECTURE TOOLS\EXTENSIBILITY\Templates\Text\StructTemplate.t4">
+            <elementDefinition Id="88b643ac-d525-472e-8316-6d088caffa5e" />
+          </propertyInstance>
+          <elementDefinition Id="c188b97f-8053-48b3-92fa-59898d8e731a" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="457753b5-4430-41db-9125-94bbf59961d4">
+          <propertyInstance Id="4c8f9ccf-2dec-44b7-b225-83491f0aa4f7" name="ProjectPath" value="ClassTemplate=..\SpaceInvaders ModellingLib\SpaceInvaders ModellingLib.csproj|EnumTemplate=..\SpaceInvaders ModellingLib\SpaceInvaders ModellingLib.csproj|InterfaceTemplate=..\SpaceInvaders ModellingLib\SpaceInvaders ModellingLib.csproj|StructTemplate=..\SpaceInvaders ModellingLib\SpaceInvaders ModellingLib.csproj">
+            <elementDefinition Id="88756da6-2013-485d-ae51-869e3799fb84" />
+          </propertyInstance>
+          <elementDefinition Id="c36fce58-aa47-4b08-b468-be8a5cc774d2" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="afd2c8d4-4aaf-4b64-a41b-8ff4109cf2f7">
+          <propertyInstance Id="7e4bef01-862c-4575-8e18-ff4cdbb37e74" name="TargetDirectory" value="ClassTemplate=GeneratedCode\{PackageStructure}|EnumTemplate=GeneratedCode\{PackageStructure}|InterfaceTemplate=GeneratedCode\{PackageStructure}|StructTemplate=GeneratedCode\{PackageStructure}">
+            <elementDefinition Id="54cb3296-a539-461f-9399-17ee815dfaa8" />
+          </propertyInstance>
+          <elementDefinition Id="0b82c69b-629b-44a3-a9b6-62fcb91c6bc1" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="8e006207-e1a5-41f5-b4a2-3724bc537f59">
+          <propertyInstance Id="b2b20f73-27c5-4f97-ab19-8f091a5edfd6" name="TargetName" value="ClassTemplate={Name}|EnumTemplate={Name}|InterfaceTemplate={Name}|StructTemplate={Name}">
+            <elementDefinition Id="a0bf4815-68ab-4e06-84c3-d89b66cb3eb8" />
+          </propertyInstance>
+          <elementDefinition Id="4738ff81-790a-4afc-aae4-0ec1c8301dea" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="d73eba6a-175e-4157-aebc-d970c25b9b65">
+          <propertyInstance Id="e04e66de-cab2-4d1c-ba4a-5580ea56092c" name="Overwrite" value="ClassTemplate=True|EnumTemplate=True|InterfaceTemplate=True|StructTemplate=True">
+            <elementDefinition Id="e9cdebd3-3e8b-4fa3-bddc-610dd5a56843" />
+          </propertyInstance>
+          <elementDefinition Id="93547f62-51c5-4a00-9e8b-e36cfb195fa9" />
+        </stereotypeInstanceHasPropertyInstances>
+        <stereotypeInstanceHasPropertyInstances Id="0801f965-ba70-49c2-9642-c1fae32cffe5">
+          <propertyInstance Id="d2bcc741-0dc4-4de6-8402-62b2039d9860" name="Parameters">
+            <elementDefinition Id="954c0481-d53f-4d27-b4de-0cd6c2627285" />
+          </propertyInstance>
+          <elementDefinition Id="aa40893f-9925-4d71-8a6c-979e8af6acbd" />
+        </stereotypeInstanceHasPropertyInstances>
+      </propertyInstances>
+    </stereotypeInstance>
+  </appliedStereotypesInternal>
+  <profileInstances>
+    <packageHasProfileInstances Id="92da717a-089c-4da8-83f7-ff2e00df8994">
+      <profileInstance Id="f49e90b7-0514-4eee-b59b-5266799c5adf" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c8b48b09-284f-4439-bd6d-e9b318092680">
+      <profileInstance Id="1b0b27ec-1aae-49ef-a236-f6a387b99f18" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="eec801ad-14e4-4ac7-be44-8155938935bc">
+      <profileInstance Id="c61259b0-a901-42c0-8e01-b9051addd63b" name="CSharpProfile">
+        <elementDefinition Id="ae7b2ba8-48f8-4c77-8d4c-f1407ee0ad00" />
+      </profileInstance>
+      <elementDefinition Id="08a56ecb-3c82-4d99-8a61-27a8ed0976d9" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="c8ffc442-3858-4d4f-9bff-0322961baaf8">
+      <profileInstance Id="cc3376b3-93ae-4eb7-a3da-413084261819" name="TextTemplateBindings">
+        <elementDefinition Id="8eab1ecf-b909-4e0e-97c4-20e4f7811ec5" />
+      </profileInstance>
+      <elementDefinition Id="97204062-8e37-4a20-b5d6-afea9c81db88" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <logicalClassDesignerModelHasTypes>
+      <class Id="8142e655-fdfb-42a3-981c-d9e0396112c5" name="Class1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="3abb7664-f9fc-441b-8234-1b6c2a2aad49" />
+      </class>
+    </logicalClassDesignerModelHasTypes>
+  </packagedElements>
+  <package Id="23cb08e6-4871-485c-bbd5-8ac9034e20e3" name="SpaceInvaders Modelling">
+    <elementDefinition Id="89fcbdcd-17f5-41a4-b74c-158b017e6412" />
+  </package>
+</logicalClassDesignerModel>
